@@ -1489,7 +1489,6 @@ end
 -- Message output to the raid frame
 function XRS:RaidOutput(msg)
     SendChatMessage(msg, "RAID")
-	DEFAULT_CHAT_FRAME:AddMessage(msg)
 end
 
 -- Sets the bar textures of every bar
